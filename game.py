@@ -14,7 +14,7 @@ def run_game():
     pygame.display.set_caption("Alien Invasion")
 
     # Make ship
-    ship = Ship(screen)
+    ship = Ship(game_settings, screen)
 
     # Set the background color
     bg_color = (230, 230, 230)
