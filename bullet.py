@@ -1,12 +1,12 @@
 import pygame
-from pygame.sprite import sprite
+from pygame.sprite import Sprite
 
 class Bullet(Sprite):
     """A class to manage bullets fired from the ship"""
 
     def __init__(self, game_settings, screen, ship):
         """Create a bullet at the ship's current position"""
-        super.__init__()
+        super().__init__()
         self.screen = screen
 
         # Create a bullet rect at (0, 0) and then corrent position
